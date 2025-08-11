@@ -3,7 +3,6 @@ import java.awt.event.*;
 
 /*
 This project uses JFrame pop ups to encrypt a user message.
-Reference back to this when I forget how to use JFrame.
  */
 public class cypherGUI {
     public static String encrypt(String text, int shift) {
@@ -63,3 +62,4 @@ public class cypherGUI {
         frame.setVisible(true);
     }
 }
+
